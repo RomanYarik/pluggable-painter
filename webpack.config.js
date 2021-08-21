@@ -1,6 +1,5 @@
 // @ts-check
-
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { StylableWebpackPlugin } = require('@stylable/webpack-plugin');
 
 /** @type import('webpack').Configuration */
 module.exports = {
@@ -27,22 +26,20 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
-      },
-      {
         test: /\.(png|jpg|jpeg|gif|svg)$/,
         type: 'asset',
       },
+      {
+        test: /\.css$/,
+        exclude: /\.st\.css$/,
+        use: ['style-loader', 'css-loader'],
+    },
     ],
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
   plugins: [
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[name].css',
-    }),
+    new StylableWebpackPlugin({extractMode: 'entries', filename: '[name].css'})
   ],
 };

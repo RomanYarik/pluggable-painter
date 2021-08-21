@@ -1,7 +1,10 @@
 {
   "files": [],
   "references": [
-    { "path": "./packages/app/src" },
-    { "path": "./packages/app/test" }
+    { "path": "./packages/gui/src" },
+    { "path": "./packages/gui/test" },
+
+    { "path": "./packages/commons/src" },
+    { "path": "./packages/commons/test" }
   ]
 }

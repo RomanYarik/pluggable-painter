@@ -1,5 +1,5 @@
 {
-  "name": "sample-monorepo",
+  "name": "pluggable-painter",
   "workspaces": [
     "packages/*"
   ],
@@ -16,6 +16,7 @@
     "prettify": "npx prettier . --write"
   },
   "devDependencies": {
+    "@stylable/cli": "^4.6.0",
     "@stylable/core": "^4.6.0",
     "@stylable/webpack-plugin": "^4.6.0",
     "@types/chai": "^4.2.21",
@@ -30,6 +31,7 @@
     "@wixc3/engine-core": "^21.0.0",
     "@wixc3/engine-scripts": "^21.1.0",
     "@wixc3/engine-test-kit": "^21.1.0",
+    "@wixc3/engineer": "^21.1.0",
     "chai": "^4.3.4",
     "css-loader": "^6.2.0",
     "eslint": "^7.32.0",

@@ -19,6 +19,6 @@ export default new Feature({
   id: 'gui',
   api: {
     topBarSlot: Slot.withType<ITopBarItem>().defineEntity(mainEnv),
-    contentSlot: Slot.withType<ILeftBarItem>().defineEntity(mainEnv),
+    leftBarSlot: Slot.withType<ILeftBarItem>().defineEntity(mainEnv),
   },
 });
