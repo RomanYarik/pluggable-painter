@@ -1049,7 +1049,7 @@
     csso "^4.2.0"
     postcss "^8.3.6"
 
-"@stylable/runtime@^4.5.1", "@stylable/runtime@^4.6.0":
+"@stylable/runtime@^4.6.0":
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/@stylable/runtime/-/runtime-4.6.0.tgz#49ded956df59db4c51f8128f8679f6b47bdc69d8"
   integrity sha512-MI3tUM3dMuEdjyRq9GZC4k7Ve/KU82UNQ1ZsgzucC4k2IrwFdZFxXSYGPmSx3KUH7oBndPvtynGDjpN1HIXaEA==
@@ -1490,61 +1490,61 @@
   resolved "https://registry.yarnpkg.com/@wixc3/cross-performance/-/cross-performance-21.0.0.tgz#a4e8fad0f81bd452620e156acde384f236a5ec6e"
   integrity sha512-bNgjRg2Rdx5ZfI+aZ+jde/OPH4kZkEO63YEXfHHPYSDhs94FCBJa9jMU+wnvGowEqj9pILBKxUshlJD+N0yuwA==
 
-"@wixc3/engine-core-node@^21.0.0":
-  version "21.0.0"
-  resolved "https://registry.yarnpkg.com/@wixc3/engine-core-node/-/engine-core-node-21.0.0.tgz#7d11f8f5e686ffd4770bfb7fdb183a09f31ca1e3"
-  integrity sha512-kb0pDIxh3/cIkpZOqxQRiOghS9e5k9QWk67d95Jrza5u7tFqWrEpzJvpQePuF9oY86DKgrAJbVUNsTQyE8Xe/g==
+"@wixc3/engine-core-node@^21.1.3":
+  version "21.1.3"
+  resolved "https://registry.yarnpkg.com/@wixc3/engine-core-node/-/engine-core-node-21.1.3.tgz#350cdfa1221acd7711d5db54173a122f3df26bd6"
+  integrity sha512-6hFAllLqpwuqRqpzYkOCDVpgiwb3OnOiTNML4R6fO5N40cls/GOD3ceVM2medOV5IPPfDUdOI7iRbJhY+4r1Ow==
   dependencies:
-    "@wixc3/engine-core" "^21.0.0"
+    "@wixc3/engine-core" "^21.1.3"
     create-listening-server "^1.0.0"
     express "^4.17.1"
     socket.io "^4.1.3"
 
-"@wixc3/engine-core@^21.0.0":
-  version "21.0.0"
-  resolved "https://registry.yarnpkg.com/@wixc3/engine-core/-/engine-core-21.0.0.tgz#b97bd76df6f7d20072b7db2199f22278b4a82cac"
-  integrity sha512-V/5bLS/7w3p61q0ZaDWqtxuP1Ypz9TFVmUND/+ZtqBOUnBfdEfc9vJcGVA1jkgYa8e+2Q2RCv+IqSvWzUBAqWA==
+"@wixc3/engine-core@^21.0.0", "@wixc3/engine-core@^21.1.3":
+  version "21.1.3"
+  resolved "https://registry.yarnpkg.com/@wixc3/engine-core/-/engine-core-21.1.3.tgz#3d352d21165132ce9c73c5e31e81b34927a3bb7a"
+  integrity sha512-ZDlWJTK+vbVvk1EEiomPdKatzqTYKxYqtstaUxHroMP7up6izs4MHvhdIyjUoaXbbjp6b7VErBopw0ezz7+nNQ==
   dependencies:
     socket.io-client "^4.1.3"
     typescript-type-utils "^0.1.0"
 
-"@wixc3/engine-dashboard@^21.1.0":
-  version "21.1.0"
-  resolved "https://registry.yarnpkg.com/@wixc3/engine-dashboard/-/engine-dashboard-21.1.0.tgz#ef8cf76e98dc014aa9e72e0bc6f96dd5a0e003b8"
-  integrity sha512-wprIteBh+d2K0WBf8wKpiWAtaWkl7b7Ed20oxZjcJVMLkM8DkwrdYXmTBULoYmq8WKPP1LaQcWRhLwOoy4CEBQ==
+"@wixc3/engine-dashboard@^21.1.3":
+  version "21.1.3"
+  resolved "https://registry.yarnpkg.com/@wixc3/engine-dashboard/-/engine-dashboard-21.1.3.tgz#504b2cf802c9327a2c3602a99b073bc077b9d115"
+  integrity sha512-XUZxMJRVsHBsWhuiPxpYEeVEeNdSY0rHiHI4ZX7iTOQH8kNXsrNtgbZ8vK+4cYTPYGRlp1bXG4jH1wnmAlSwOg==
   dependencies:
-    "@stylable/runtime" "^4.5.1"
-    "@wixc3/engine-core" "^21.0.0"
-    "@wixc3/engine-runtime-node" "^21.0.0"
-    "@wixc3/engine-scripts" "^21.1.0"
+    "@stylable/runtime" "^4.6.0"
+    "@wixc3/engine-core" "^21.1.3"
+    "@wixc3/engine-runtime-node" "^21.1.3"
+    "@wixc3/engine-scripts" "^21.1.3"
     d3-hierarchy "^3.0.1"
     d3-selection "^3.0.0"
     d3-shape "^3.0.1"
 
-"@wixc3/engine-runtime-node@^21.0.0":
-  version "21.0.0"
-  resolved "https://registry.yarnpkg.com/@wixc3/engine-runtime-node/-/engine-runtime-node-21.0.0.tgz#0aad987e78876320232a41f10a040b6c4e1a7912"
-  integrity sha512-mDkXKMMQJOQHrt0/9WDNvX14ZkghdLDSxD8srU3j4D8KnTN2GoiMkPCm61+Qq0aradW3PmB0HEDDVOPsb3Z7mw==
+"@wixc3/engine-runtime-node@^21.0.0", "@wixc3/engine-runtime-node@^21.1.3":
+  version "21.1.3"
+  resolved "https://registry.yarnpkg.com/@wixc3/engine-runtime-node/-/engine-runtime-node-21.1.3.tgz#e9425672ba828f269e7733fc7e591efc2e41ca50"
+  integrity sha512-ilvTIlI4BR+IrkWaQCV9A+EpUEQ1xceNE4FGmUsvLbXqsiUlpjHp4tsDOwa5VcGPUtP81+TvD5N7qd3Qlp9PEA==
   dependencies:
     "@wixc3/cross-performance" "^21.0.0"
-    "@wixc3/engine-core" "^21.0.0"
-    "@wixc3/engine-core-node" "^21.0.0"
+    "@wixc3/engine-core" "^21.1.3"
+    "@wixc3/engine-core-node" "^21.1.3"
     create-listening-server "^1.0.0"
     minimist "^1.2.5"
     socket.io "^4.1.3"
 
-"@wixc3/engine-scripts@^21.1.0":
-  version "21.1.0"
-  resolved "https://registry.yarnpkg.com/@wixc3/engine-scripts/-/engine-scripts-21.1.0.tgz#f1e8da414344bb0ee5675540ae0346c11f2a1ee6"
-  integrity sha512-tGGolbpRp71R5kcY9vbvd43dm3673pvbHof4HExAg2CKioHUMLvlkzfhWmBMm/YcS7uiR3uOruNPvKk+3ApWfw==
+"@wixc3/engine-scripts@^21.1.0", "@wixc3/engine-scripts@^21.1.3":
+  version "21.1.3"
+  resolved "https://registry.yarnpkg.com/@wixc3/engine-scripts/-/engine-scripts-21.1.3.tgz#230d2dffa14246fcb7b21ae01c9c4b343d741579"
+  integrity sha512-ZrEXCogafJtdOcwLUFoZl/vGj+R/SswBjuG6Bh/9VWU9qxEbarOdwFgHotcKbXdUqanmwXP5dRsKujFIvbeaeQ==
   dependencies:
     "@file-services/node" "^5.3.1"
     "@file-services/types" "^5.3.1"
     "@types/express" "^4.17.13"
     "@wixc3/cross-performance" "^21.0.0"
-    "@wixc3/engine-core" "^21.0.0"
-    "@wixc3/engine-core-node" "^21.0.0"
-    "@wixc3/engine-runtime-node" "^21.0.0"
+    "@wixc3/engine-core" "^21.1.3"
+    "@wixc3/engine-core-node" "^21.1.3"
+    "@wixc3/engine-runtime-node" "^21.1.3"
     cors "^2.8.5"
     create-listening-server "^1.0.0"
     express "^4.17.1"
@@ -1553,7 +1553,7 @@
     rimraf "^3.0.2"
     semver "^7.3.5"
     socket.io "^4.1.3"
-    type-fest "^2.0.0"
+    type-fest "^2.1.0"
 
 "@wixc3/engine-test-kit@^21.1.0":
   version "21.1.0"
@@ -1570,18 +1570,18 @@
     promise-assist "^1.3.0"
     sinon "^11.1.2"
 
-"@wixc3/engineer@^21.1.0":
-  version "21.1.0"
-  resolved "https://registry.yarnpkg.com/@wixc3/engineer/-/engineer-21.1.0.tgz#63c00efb9d16694a774173e7f00b0d46977fa87b"
-  integrity sha512-z6f0dDIigbTbLHb0V2S/NmwZ6y38oTmWPpcal1xCv7u0CfYRXdrcKxellunRZg1EW/8zYKNEzRNKkOwAr2du+w==
+"@wixc3/engineer@^21.1.3":
+  version "21.1.3"
+  resolved "https://registry.yarnpkg.com/@wixc3/engineer/-/engineer-21.1.3.tgz#2f121e2d9e9c501f07a38cc61baeb8098f328b68"
+  integrity sha512-QDKJ7H3Cw0YtjXf1rZYLOuwxcMxNUFxPRCa/YxBX3mS0QPySC66JVXj77uNvumtP+OVloMMswM5sPzAR+7IcIw==
   dependencies:
     "@file-services/node" "^5.3.1"
     "@wixc3/cross-performance" "^21.0.0"
-    "@wixc3/engine-core" "^21.0.0"
-    "@wixc3/engine-core-node" "^21.0.0"
-    "@wixc3/engine-dashboard" "^21.1.0"
-    "@wixc3/engine-runtime-node" "^21.0.0"
-    "@wixc3/engine-scripts" "^21.1.0"
+    "@wixc3/engine-core" "^21.1.3"
+    "@wixc3/engine-core-node" "^21.1.3"
+    "@wixc3/engine-dashboard" "^21.1.3"
+    "@wixc3/engine-runtime-node" "^21.1.3"
+    "@wixc3/engine-scripts" "^21.1.3"
     commander "^8.1.0"
     open "^8.2.1"
     socket.io "^4.1.3"
@@ -7420,10 +7420,10 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
-type-fest@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.0.0.tgz#e9daf5615e89f6d430f34117f88f4ee2cd5a2725"
-  integrity sha512-BoEUnckjP9oiudy3KxlGdudtBAdJQ74Wp7dYwVPkUzBn+cVHOsBXh2zD2jLyqgbuJ1KMNriczZCI7lTBA94dFg==
+type-fest@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.1.0.tgz#1f8b20ff51519f3b01b3188d50dea9f9ebfbf1b8"
+  integrity sha512-2wHUmKDy5wNLmebekbHx/zE9ElYAKOmz34psTLG7OwyEJHaIUr6jnaCd55EvgrawAvliwbwgbyH1LkxIfWFyNg==
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
