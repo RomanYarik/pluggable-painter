@@ -30,7 +30,7 @@
     "@typescript-eslint/parser": "^4.29.2",
     "@wixc3/engine-core": "^21.0.0",
     "@wixc3/engine-scripts": "^21.1.0",
-    "@wixc3/engine-test-kit": "^21.1.0",
+    "@wixc3/engine-test-kit": "^22.3.3",
     "@wixc3/engineer": "^21.1.0",
     "chai": "^4.3.4",
     "css-loader": "^6.2.0",
