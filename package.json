@@ -28,7 +28,7 @@
     "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
-    "@wixc3/engine-core": "^21.0.0",
+    "@wixc3/engine-core": "^29.0.1",
     "@wixc3/engine-scripts": "^21.1.0",
     "@wixc3/engine-test-kit": "^21.1.0",
     "@wixc3/engineer": "^21.1.0",
